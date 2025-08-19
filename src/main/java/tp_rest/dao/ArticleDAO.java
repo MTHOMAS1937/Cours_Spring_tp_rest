@@ -49,4 +49,6 @@ public class ArticleDAO {
     public boolean deleteArticle(int id) {
         return articles.removeIf(article -> article.getId() == id);
     }
+
+
 }
